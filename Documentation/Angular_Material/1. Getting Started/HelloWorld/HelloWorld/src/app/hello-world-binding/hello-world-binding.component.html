@@ -1,0 +1,16 @@
+<button
+    type ="button"
+    [disabled] = canClick
+    (click) = "sayMessage()">
+    Trigger Alert Message
+</button>
+
+<p
+    [id] = "sayHelloId"
+    [style.color] = "fontColor">  
+    Notice the use of the square brackets—that syntax indicates that you're binding the property or attribute to a value in the component class.
+
+    You can set my color at any component
+</p>
+
+<p>My color is : {{fontColor}}</p>
